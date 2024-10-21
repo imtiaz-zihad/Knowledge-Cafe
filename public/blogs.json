@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co.com/T2zCGzs/freepik-candid-image-photography-natural-textures-highly-r-16778.jpg",
+      "title": "Exploring the Depths of AI",
+      "author": "Jane Doe",
+      "author_img": "https://source.unsplash.com/featured/?woman,portrait",
+      "posted_date": "2024-10-15",
+      "reading_time": 5,
+      "hashtags": ["#AI", "#MachineLearning", "#Tech"]
+    },
+    {
+      "id": 2,
+      "cover": "https://source.unsplash.com/featured/?web,development",
+      "title": "The Future of Web Development",
+      "author": "John Smith",
+      "author_img": "https://source.unsplash.com/featured/?man,portrait",
+      "posted_date": "2024-09-28",
+      "reading_time": 8,
+      "hashtags": ["#WebDev", "#JavaScript", "#Frontend"]
+    },
+    {
+      "id": 3,
+      "cover": "https://source.unsplash.com/featured/?blockchain,crypto",
+      "title": "Blockchain Beyond Bitcoin",
+      "author": "Alice Johnson",
+      "author_img": "https://source.unsplash.com/featured/?woman,crypto",
+      "posted_date": "2024-08-12",
+      "reading_time": 6,
+      "hashtags": ["#Blockchain", "#Crypto", "#Innovation"]
+    },
+    {
+      "id": 4,
+      "cover": "https://source.unsplash.com/featured/?python,code",
+      "title": "Mastering Python for Data Science",
+      "author": "Michael Lee",
+      "author_img": "https://source.unsplash.com/featured/?man,developer",
+      "posted_date": "2024-07-20",
+      "reading_time": 10,
+      "hashtags": ["#Python", "#DataScience", "#Programming"]
+    },
+    {
+      "id": 5,
+      "cover": "https://source.unsplash.com/featured/?cybersecurity,hacking",
+      "title": "Cybersecurity: Best Practices in 2024",
+      "author": "Emily Davis",
+      "author_img": "https://source.unsplash.com/featured/?woman,cybersecurity",
+      "posted_date": "2024-10-01",
+      "reading_time": 7,
+      "hashtags": ["#Cybersecurity", "#EthicalHacking", "#TechTrends"]
+    }
+  ]
+  
