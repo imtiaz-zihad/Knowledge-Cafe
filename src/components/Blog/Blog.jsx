@@ -1,15 +1,54 @@
-import PropTypes from 'prop-types'; // ES6
+import PropTypes from "prop-types"; // ES6
+import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({blog}) => {
-    console.log(blog);
-    
-    return (
-        <div>
-            
+const Blog = ({ blog ,handleAddToBookmark }) => {
+  console.log(blog);
+  const {
+    title,
+    cover,
+    author,
+    reading_time,
+    author_img,
+    posted_date,
+    hashtags,
+  } = blog;
+
+  return (
+    <div className="mb-20">
+      <img
+        className="w-full h-96 rounded-md"
+        src={cover}
+        alt={`cover picture of ${title}`}
+      />
+      <div className="flex justify-between">
+        <div className="flex gap-4">
+          <img className="w-14" src={author_img} alt="" />
+          <div>
+            <h3 className="text-2xl font-bold">{author}</h3>
+            <p>{posted_date}</p>
+          </div>
         </div>
-    );
+        <div className="flex items-center justify-center gap-3 text-2xl text-blue-500">
+          <span>{reading_time} min read</span>
+          <button onClick={()=> handleAddToBookmark(blog)}>
+            <FaBookmark></FaBookmark>
+          </button>
+        </div>
+      </div>
+      <h2 className="text-4xl">{title}</h2>
+      <p className="text-blue-400 ">
+        {hashtags.map((hash, idx) => (
+          <span key={idx}>
+            {" "}
+            <a href="">{hash}</a>
+          </span>
+        ))}
+      </p>
+    </div>
+  );
 };
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
-}
+  blog: PropTypes.object.isRequired,
+  handleAddToBookmark: PropTypes.func.isRequired
+};
 export default Blog;
